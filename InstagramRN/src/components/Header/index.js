@@ -13,7 +13,7 @@ const Header = () => {
           style={[styles.logo, styles.mr15]}
           source={require('../../assets/tivi_logo.jpg')}
         />
-        <Image style={styles.logo} source={require('../../assets/msg.png')} />
+        <Image style={styles.logo} source={require('../../assets/msg1.png')} />
       </View>
     </View>
   );

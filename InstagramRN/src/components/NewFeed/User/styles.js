@@ -21,4 +21,13 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     color: 'red',
   },
+  right: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dotImage: {
+    height: 30,
+    width: 30,
+  },
 });

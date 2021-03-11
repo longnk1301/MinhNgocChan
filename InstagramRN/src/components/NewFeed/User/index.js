@@ -19,8 +19,15 @@ export default function index() {
         </View>
       </View>
 
-      <View>
+      <View style={styles.right}>
         <Text>April 24</Text>
+        <Image
+          style={styles.dotImage}
+          source={{
+            uri:
+              'https://apisproductions.com/wp-content/uploads/2020/02/istockphoto-957096060-170667a.jpg',
+          }}
+        />
       </View>
     </View>
   );
