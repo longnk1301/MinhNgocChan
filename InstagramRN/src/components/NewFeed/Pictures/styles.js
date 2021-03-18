@@ -1,25 +1,14 @@
 import {StyleSheet, Dimensions} from 'react-native';
 
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
-  image: {
-    width: width - 30,
-    height: 250,
-    borderRadius: 15,
-  },
   container: {
     flex: 1,
     minHeight: 250,
   },
 
   wrapper: {},
-
-  slide: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: 'transparent',
-  },
 
   slide1: {
     flex: 1,
