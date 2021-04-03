@@ -19,7 +19,7 @@ export default function index() {
         </View>
         <View style>
           <TouchableOpacity style={styles.iconContainer}>
-            <Icon style={styles.icon_Home} name="home" />
+            <Icon style={styles.iconSave} name="clipboard" />
           </TouchableOpacity>
         </View>
       </View>

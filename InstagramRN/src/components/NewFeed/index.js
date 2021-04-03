@@ -4,7 +4,6 @@ import {styles} from './styles';
 import User from './User';
 import Pictures from './Pictures';
 import Reaction from './Reaction';
-import Status from './Status';
 
 export default function index() {
   return (
@@ -12,8 +11,6 @@ export default function index() {
       <User />
       <Pictures />
       <Reaction />
-      <User />
-      <Status />
     </View>
   );
 }

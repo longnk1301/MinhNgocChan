@@ -24,18 +24,15 @@ export const styles = StyleSheet.create({
   icon_Message: {
     fontSize: 20,
     top: 10,
-    color: 'grey',
   },
   icon_Find: {
     fontSize: 25,
     top: 10,
-    color: 'grey',
   },
-  icon_Home: {
-    fontSize: 15,
+  iconSave: {
+    fontSize: 20,
     top: 10,
     left: 20,
-    color: 'grey',
   },
   View: {
     top: 20,

@@ -1,7 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import Home from './src/screens/Home';
-import Navigation from './src/navigation/Navigation';
 
 const App: () => React$Node = () => {
   return (
@@ -9,7 +8,6 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.warraper}>
         <Home />
-        {/* <Navigation /> */}
       </SafeAreaView>
     </>
   );
