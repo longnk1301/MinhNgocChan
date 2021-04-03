@@ -12,6 +12,7 @@ export default function index() {
       <User />
       <Pictures />
       <Reaction />
+      <User />
       <Status />
     </View>
   );
