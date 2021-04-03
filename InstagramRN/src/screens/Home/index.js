@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, ScrollView} from 'react-native';
 import Header from '../../components/Header';
 import Search from '../../components/Search';
 import Story from '../../components/Story';
@@ -9,10 +9,12 @@ import {styles} from './styles';
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Header />
-      <Search />
-      <Story />
-      <NewFeed />
+      <ScrollView style={styles.view}>
+        <Header />
+        <Search />
+        <Story />
+        <NewFeed />
+      </ScrollView>
     </View>
   );
 };

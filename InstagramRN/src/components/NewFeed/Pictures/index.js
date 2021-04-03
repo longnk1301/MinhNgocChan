@@ -4,12 +4,7 @@ import {styles} from './styles';
 import Swiper from 'react-native-swiper';
 import Slide from '../../Slide';
 
-const sliders = [
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvH0nByLtKT3_KyaOg2VVdRe6wmhBlLTjmhg&usqp=CAU',
-  'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
-];
-
-export default function index() {
+export default function index({pictures}) {
   return (
     <View style={styles.container}>
       <Swiper
@@ -19,7 +14,7 @@ export default function index() {
         activeDot={<View style={styles.Dot} />}
         paginationStyle={styles.paginationStyle}
         loop>
-        {sliders.map((slide) => {
+        {pictures.map((slide) => {
           return <Slide slide={slide} />;
         })}
       </Swiper>

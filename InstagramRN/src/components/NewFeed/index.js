@@ -3,14 +3,21 @@ import {View} from 'react-native';
 import {styles} from './styles';
 import User from './User';
 import Pictures from './Pictures';
-import Reaction from './Reaction';
+import Status from './Status';
+import {newfeeds} from './sampleData';
 
 export default function index() {
   return (
-    <View style={styles.container}>
-      <User />
-      <Pictures />
-      <Reaction />
-    </View>
+    <>
+      {newfeeds.map((newfeed) => {
+        return (
+          <View style={styles.container} key={newfeed.id}>
+            <User user={newfeed.user} />
+            <Pictures pictures={newfeed.images} />
+            <Status status={newfeed.status} user={newfeed.user} />
+          </View>
+        );
+      })}
+    </>
   );
 }

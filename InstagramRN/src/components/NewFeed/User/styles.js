@@ -27,7 +27,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   dotImage: {
-    height: 30,
-    width: 30,
+    fontSize: 20,
   },
 });

@@ -1,47 +1,43 @@
 import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
-  Container: {
+  container: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   iconContainer: {
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 20,
+    paddingVertical: 5,
     flexDirection: 'row',
-  },
-  icon: {
-    width: 30,
-    height: 30,
-    top: 10,
   },
   icon_Heart: {
     fontSize: 20,
-    top: 10,
-    right: 20,
     color: 'red',
   },
   icon_Message: {
     fontSize: 20,
-    top: 10,
+    marginHorizontal: 15,
   },
   icon_Find: {
     fontSize: 25,
-    top: 10,
   },
   iconSave: {
     fontSize: 20,
-    top: 10,
-    left: 20,
   },
-  View: {
-    top: 20,
-    marginBottom: 50,
+  view: {
+    marginBottom: 20,
   },
   text: {
     color: 'red',
-  },
-  text_comment: {
     fontSize: 12,
+  },
+  status: {fontSize: 12, marginTop: 10},
+  comments: {
+    fontSize: 12,
+    paddingTop: 5,
+    color: 'grey',
+  },
+  user: {
+    fontWeight: 'bold',
   },
 });
