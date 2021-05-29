@@ -15,7 +15,7 @@ export default function index({pictures}) {
         paginationStyle={styles.paginationStyle}
         loop>
         {pictures.map((slide) => {
-          return <Slide slide={slide} />;
+          return <Slide slide={slide} key={slide} />;
         })}
       </Swiper>
     </View>
