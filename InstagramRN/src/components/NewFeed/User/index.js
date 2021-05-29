@@ -1,12 +1,16 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import {styles} from './styles';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-export default function index({user}) {
+export default function index({user, navigation}) {
+  const _onClickUser = () => {
+    navigation.navigate('Profile', {userParams: user});
+  };
+
   return (
     <View style={styles.container}>
-      <View style={styles.info}>
+      <TouchableOpacity style={styles.info} onPress={_onClickUser}>
         <Image
           style={styles.avt}
           source={{
@@ -17,7 +21,7 @@ export default function index({user}) {
           <Text style={styles.userName}>{user.name}</Text>
           <Text style={styles.address}>{user.city}</Text>
         </View>
-      </View>
+      </TouchableOpacity>
 
       <View style={styles.right}>
         <Text>{user.date}</Text>
