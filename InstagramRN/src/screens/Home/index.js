@@ -6,14 +6,14 @@ import Story from '../../components/Story';
 import NewFeed from '../../components/NewFeed';
 import {styles} from './styles';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.view}>
         <Header />
         <Search />
         <Story />
-        <NewFeed />
+        <NewFeed navigation={navigation} />
       </ScrollView>
     </View>
   );
