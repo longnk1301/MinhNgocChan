@@ -9,16 +9,16 @@ const DATA = [
     avatar:
       'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
     image:
-      'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK1LaBaummJfuW6GIM_kt3R9egIlpqVpEKw&usqp=CAU',
   },
   {
     id: '2',
-    name: 'Jose',
+    name: 'Sonny',
     avatar:
       'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
 
     image:
-      'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6A2uPoIft1gvtqS4DBeyqqAE7cR84ViUgCw&usqp=CAU',
   },
   {
     id: '3',
@@ -27,25 +27,16 @@ const DATA = [
       'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
 
     image:
-      'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIjradKIOHsSEiNr4-fFFd5nV-OggxvXcuvQ&usqp=CAU',
   },
   {
     id: '4',
-    name: 'Kenny',
+    name: 'Hello',
     avatar:
       'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
 
     image:
-      'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg',
-  },
-  {
-    id: '5',
-    name: 'Sonny',
-    avatar:
-      'https://pyxis.nymag.com/v1/imgs/630/6e0/eb215ad90cd826b9e57ff505f54c5c7228-07-avatar.rsquare.w700.jpg',
-
-    image:
-      'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg',
+      'https://i2.wp.com/www.hindishayaricollections.com/wp-content/uploads/2019/10/Cute-Girl-Dp-Images-Pictures-47.jpg?resize=451%2C631&ssl=1',
   },
 ];
 

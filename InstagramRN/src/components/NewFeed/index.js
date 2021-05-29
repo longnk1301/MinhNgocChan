@@ -3,22 +3,21 @@ import {View} from 'react-native';
 import {styles} from './styles';
 import User from './User';
 import Pictures from './Pictures';
-import Reaction from './Reaction';
 import Status from './Status';
-
-/*/
-1. thay image chat icon thanh image khac co mau tuong tu app
-2. them image bar menu trong user component
-3. PIcture component chuyen thanh ScrollView
-*/
+import {newfeeds} from './sampleData';
 
 export default function index() {
   return (
-    <View style={styles.container}>
-      <User />
-      <Pictures />
-      <Reaction />
-      <Status />
-    </View>
+    <>
+      {newfeeds.map((newfeed) => {
+        return (
+          <View style={styles.container} key={newfeed.id}>
+            <User user={newfeed.user} />
+            <Pictures pictures={newfeed.images} />
+            <Status status={newfeed.status} user={newfeed.user} />
+          </View>
+        );
+      })}
+    </>
   );
 }
